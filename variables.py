@@ -52,7 +52,7 @@ def
 ghi"""
 
 print(my_text6)
-print(type(my_text6))
+print(type(my_text6))# transformer le nombre en caractère
 
 # Permutation de la valeur des variables
 
@@ -77,3 +77,32 @@ c = a + b
 a = c - a
 b = c - b
 print(a, b)
+
+# transtypage str vers int
+foo = "123"
+foo = int(foo)
+print(type(foo))
+
+# transtypage str vers float
+foo = "123"
+foo = float(foo)
+print(type(foo))
+
+# supprimer ce qu'il y a derrire la virgule Float vers int
+foo = 3.14
+foo = int(foo)
+print(type(foo))
+
+# Float vers str
+foo = 3.14
+foo = str(foo)
+print(type(foo))
+
+#
+foo = 2.71
+
+a = int(foo)
+print(a)
+
+b = foo - a
+print(b)
